@@ -1,3 +1,4 @@
+@use 'responsive';
 @use 'footer';
 @use 'loginForm';
 @use 'crieConta';
@@ -11,19 +12,24 @@
 
 .container {
     padding: 48px;
-    max-width: 960px;
+    max-width: 650px;
     width: 100%;
-    display: flex;
-    justify-content: center;
+
+    @media(max-width:875px){
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 .celular__instagram{
     width: 380px;
-    margin-left: 160px;
+    display: block;
+    margin: auto;
 }
 
 .botao {
-    width: 290px;
+    width: 270px;
     margin-bottom: 16px;
     background-color: rgb(95,170,255);
     border: none;
@@ -31,6 +37,11 @@
     padding: 6px;
     color: #fff;
     font-weight: bold;
+
+    @media (max-width: 875px){
+        width: 235px;
+        width: 100%;
+    }
 }
 
 .separador {

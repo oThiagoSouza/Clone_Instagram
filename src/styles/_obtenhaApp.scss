@@ -13,3 +13,16 @@
         height: 40px;
     }
 }
+
+@media(max-width: 875px) {
+    .obtenha_app {
+        margin: 0 auto;
+        .container {
+            width: 100%;
+        }
+        .gplay_logo,
+        .apple_logo{
+            width: 100px;
+        }
+    }
+}
