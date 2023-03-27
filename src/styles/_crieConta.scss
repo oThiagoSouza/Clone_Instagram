@@ -1,0 +1,18 @@
+.crie_conta {
+    padding: 18px 0;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    max-width: 350px;
+
+    &_text {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .cadastro {
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,29 @@
+.footer {
+    color: gray;
+    padding-top: 50px;
+    text-align: center;
+
+    &__link {
+        text-decoration: none;
+        font-size: 12px;
+        margin: 0 8px;
+        color: gray;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #linguas {
+        color: gray;
+        margin-top: 16px;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        margin-right: 8px;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,47 @@
+.login {
+    border: 1px solid #ccc;
+    max-width: 350px;
+    padding: 30px;
+
+    &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    &__form {
+        max-width: 350px;
+        margin: 0 auto;
+        input {
+            padding: 8px;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+    }
+
+    .face {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__logo {
+            width: 16px;
+            margin-right: 10px;
+        }
+        
+        &__link {
+            font-weight: bold;
+            color: rgb(93, 93, 211);
+            text-decoration: none;
+            text-align: center;
+            margin: 14px 0;
+        }
+    }
+
+    .rec_senha {
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        text-align: center;
+    }
+}

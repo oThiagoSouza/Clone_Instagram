@@ -1,5 +1,7 @@
-@use 'login';
-@use 'left_side';
+@use 'footer';
+@use 'loginForm';
+@use 'crieConta';
+@use 'obtenhaApp';
 
 *{
     box-sizing: border-box;
@@ -8,9 +10,48 @@
 }
 
 .container {
+    padding: 48px;
     max-width: 960px;
     width: 100%;
-    margin: 0 auto;
     display: flex;
-    gap: 20px;
+    justify-content: center;
+}
+
+.celular__instagram{
+    width: 380px;
+    margin-left: 160px;
+}
+
+.botao {
+    width: 290px;
+    margin-bottom: 16px;
+    background-color: rgb(95,170,255);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.separador {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: rgb(119, 118, 118);
+    font-weight: bold;
+    font-size: 14px;
+
+    &::before,&::after {
+        content: '';
+        margin: 0 8px;
+        background-color: #dbdbdb;
+        height: 1px;
+        width: 112px;
+        display: block;
+    }
+}
+
+.gp_logo,.ms_logo{
+    width: 40px;
 }
