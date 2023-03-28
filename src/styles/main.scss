@@ -61,6 +61,10 @@
         width: 112px;
         display: block;
     }
+
+    @media(max-width: 875px){
+        justify-content: center;
+    }
 }
 
 .gp_logo,.ms_logo{
