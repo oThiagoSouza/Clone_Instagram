@@ -1,0 +1,30 @@
+.registro {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 36px;
+    max-width: 350px;
+
+    
+
+    &__title {
+        padding: 16px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin-top: 16px;
+        color: gray;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .face {
+        text-align: center;
+
+        &__logo {
+            margin-right: 6px;
+            width: 18px;
+        }
+    }
+}
