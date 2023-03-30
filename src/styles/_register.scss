@@ -1,3 +1,9 @@
+.container_2 {
+    padding: 12px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
 .registro {
     display: block;
     margin: 0 auto;
@@ -5,26 +11,123 @@
     padding: 36px;
     max-width: 350px;
 
-    
-
     &__title {
-        padding: 16px;
+        padding: 8px;
         text-align: center;
     }
 
     &__subtitle {
+        margin-bottom: 4px;
         margin-top: 16px;
-        color: gray;
-        font-weight: bold;
-        font-size: 18px;
+        color: #8e8e8e;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    &__form {
+        margin-top: 18px;
+        input {
+            margin-bottom: 8px;
+            font-size: 12px;
+            padding: 9px 0 7px 8px;
+        }
     }
 
     .face {
         text-align: center;
+        margin-bottom: 14px;
+        &__link {
+            padding: 6px 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #0095F6;
+            width: 270px;
+        }
 
         &__logo {
             margin-right: 6px;
-            width: 18px;
+            width: 16px;
+            vertical-align: text-bottom;
         }
     }
+
+    .disclaimer {
+        font-size: 12px;
+        color: #8e8e8e;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: #00376B;
+        }
+    }
+
+    .disclaimer_2{
+        margin: 12px 0;
+        font-size: 12px;
+        color: #8e8e8e;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: #00376B;
+        }
+    }
+
+    .btn_register {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 4px 16px;
+        border: none;
+        border-radius: 8px;
+        max-width: 270px;
+        width: 100%;
+        background-color: #0094f693;
+        color: #FAFAFA;
+    }
 }
+
+    .logar_conta {
+        margin: 0 auto;
+        margin-top: 12px;
+        margin-bottom: 16px;
+        max-width: 350px;
+        text-align: center;
+        padding: 26px;
+        border: 1px solid #ccc;
+
+        &_text {
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .obtenha_app {
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        &_imgs{
+            a{
+                margin: 0 2px;
+            }
+        }
+    }
+
+    .footer {
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        font-size: 10px;
+
+        &__link {
+            margin: 0 6px;
+        }
+    }
