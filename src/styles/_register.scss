@@ -110,13 +110,20 @@
         }
     }
 
-    .obtenha_app_2 {
-        margin: 0 auto;
-        margin-bottom: 20px;
+    .obtenha_app2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
 
         &_imgs{
             a{
                 margin: 0 2px;
+                img {
+                    margin-top: 20px;
+                    width: 136px;
+                    height: 40px;
+                }
             }
         }
     }
