@@ -1,0 +1,97 @@
+body{
+    background-color: #e9ebee;
+}
+
+.header {
+    padding: 8px;
+    background-color: #3B5998;
+    font-family: Roboto;    
+    &__content{
+        margin: 0 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        padding: 13px 0 0 0 ;
+        margin-left: 110px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        vertical-align: bottom;
+    }
+
+    &__btn {
+        color: #fff;
+        background-color: #42B72A;
+        text-decoration: none;
+        padding: 6px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+}
+
+.form__container {
+    max-width: 614px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 22px 108px 26px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+    .links {
+        .agora_nao{
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 12px;
+        }
+        max-width: 302px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+
+.form__title{
+    font-size: 18px;
+    padding: 18px 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.form__cadastro {
+    margin: 0 auto;
+    max-width: 302px;
+
+    &__login,
+    &__senha{
+        border-radius: 0;
+        margin: 10px 0;
+        padding: 8px 0;
+        font-size: 12px;
+    }
+
+    .form__botao {
+        text-align: center;
+        display: block;
+        padding: 12px 0;
+        width: 302px;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color: #4267b2;
+        margin-bottom: 14px;
+    }
+}
+
+.footer {
+    background-color: #fff;
+    max-width: 1366px;
+    width: 100%;
+}
